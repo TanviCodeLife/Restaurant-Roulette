@@ -19,8 +19,9 @@ namespace RestaurantRoulette.Controllers
       Console.WriteLine(selectedRestListCount);
 
       int result;
-      Random rnd = new Random();
-      result = rnd.Next(1, selectedRestListCount);
+        Random rnd = new Random();
+        result = rnd.Next(1, selectedRestListCount);
+
 
       Console.WriteLine(result);
 

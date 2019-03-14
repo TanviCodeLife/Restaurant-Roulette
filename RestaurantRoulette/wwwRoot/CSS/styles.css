@@ -16,7 +16,6 @@
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
 }
 
 body {
@@ -25,9 +24,10 @@ body {
 }
 
 .home {
-  position:absolute;
+  position: absolute;
   bottom: 40px;
-  margin-left: 45%;
+  margin-top: 5%;
+  margin-left: 44%;
 }
 
 .buttons {
@@ -66,10 +66,7 @@ h4 {
   margin-left: 17%;
   margin-right: 17%;
 }
-/* .form-row {
-  margin-left: 37%;
-  margin-right: inherit;
-} */
+
 
 .range {
   margin-left: 25%;
@@ -103,11 +100,7 @@ h3 {
 .show_fav {
   margin-left: 47%;
 }
-/* .heading {
-  margin-left: 27%;
-  font-size: 30px;
-  color: gold;
-} */
+
 
 .registration {
   margin-left: 5%;
@@ -130,9 +123,6 @@ h3 {
 
 }
 
-/* .row_range {
-
-} */
 
 .price {
   text-align: center;
@@ -166,21 +156,7 @@ color: #ECBD32;
   color: gold;
   text-align: center;
 }
-/* .nav-item{
-   border-right: none;
-   text-align: center;
-} */
 
-
-
-/* .buttons {
-  position:absolute;
-  width: 200px;
-  height: 80px;
-  margin-left:235px;
-  bottom:25px;
-  color: red;
-} */
 
  @-webkit-keyframes rotate {
   from {
@@ -191,17 +167,9 @@ color: #ECBD32;
   }
 }
 
-/* .image2 {
-  width: 100%;
-  height: 1%;
-    -webkit-animation-name:            rotate;
-    -webkit-animation-duration:        4.0s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-} */
 
 .wheel{
-  width: 12%;
+  width: 21%;
   height: auto;
     -webkit-animation-name:            rotate;
     -webkit-animation-duration:        2.5s;
