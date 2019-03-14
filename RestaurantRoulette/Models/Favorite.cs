@@ -186,6 +186,8 @@ namespace RestaurantRoulette.Models
         conn.Dispose();
       }
     }
+
+    
     public void Delete()
     {
       MySqlConnection conn = DB.Connection();

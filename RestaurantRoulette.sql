@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Dec 18, 2018 at 04:24 PM
--- Server version: 5.6.38
--- PHP Version: 7.2.1
+-- Generation Time: Mar 14, 2019 at 10:01 PM
+-- Server version: 5.7.25
+-- PHP Version: 7.3.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -38,7 +38,7 @@ CREATE TABLE `favorites` (
   `fav_cuisine` varchar(255) NOT NULL,
   `fav_menu_url` varchar(255) NOT NULL,
   `fav_page_url` varchar(255) NOT NULL,
-  `fav_images` blob NOT NULL
+  `fav_images` blob
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -105,6 +105,13 @@ CREATE TABLE `users` (
   `bio` varchar(255) DEFAULT '""'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `password`, `distance`, `price`, `bio`) VALUES
+(10, 'tanvi', 'tanvi', 1, 70, 'hello');
+
 -- --------------------------------------------------------
 
 --
@@ -165,7 +172,7 @@ ALTER TABLE `restaurant_data`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `users_favorites`
